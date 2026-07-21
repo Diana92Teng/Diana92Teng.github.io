@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Diana92Teng 的个人网站：批发网店经营者、瑜伽室经营者、LASALLE 艺术学院毕业生。" />
+  <title>Diana92Teng | Personal Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home">DIANA<span>92</span>TENG</a>
+    <nav aria-label="主要导航">
+      <a href="#about">关于我</a>
+      <a href="#experience">经历</a>
+      <a href="#contact">联系</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">PENANG · SINGAPORE</p>
+        <h1>你好，我是<br /><span>Diana92Teng</span></h1>
+        <p class="intro">
+          批发网店经营者、瑜伽生活方式爱好者，毕业于 LASALLE 艺术学院。
+          我相信审美、健康与事业，可以共同构成有质感的生活。
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#about">认识我</a>
+          <a
+            class="button secondary"
+            href="https://wa.me/6586010956?text=Hello%20Diana%2C%20I%20found%20your%20website."
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="通过 WhatsApp 联系 Diana"
+          >
+            WhatsApp 联系我
+          </a>
+        </div>
+      </div>
+
+      <div class="portrait-wrap" aria-label="Diana 的个人照片">
+        <div class="portrait-frame">
+          <img src="assets/profile.png" alt="Diana92Teng 的个人照片" />
+        </div>
+        <div class="portrait-note">Entrepreneur · Yoga · Art</div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>关于我</h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="info-card featured">
+          <span class="card-number">01</span>
+          <h3>目前工作</h3>
+          <p>经营一家批发网店，为客户提供方便、有效率的商品采购服务。</p>
+        </article>
+
+        <article class="info-card">
+          <span class="card-number">02</span>
+          <h3>居住地</h3>
+          <p>Penang / Singapore<br />槟城与新加坡</p>
+        </article>
+
+        <article class="info-card">
+          <span class="card-number">03</span>
+          <h3>个人风格</h3>
+          <p>热爱艺术、瑜伽与具有设计感的生活方式。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience">
+      <div class="section-heading light">
+        <p class="eyebrow">MY JOURNEY</p>
+        <h2>教育与工作经历</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <p class="timeline-label">EDUCATION</p>
+            <h3>LASALLE College of the Arts</h3>
+            <p>毕业于 LASALLE 艺术学院，艺术教育培养了我对设计、美感与细节的重视。</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <p class="timeline-label">EXPERIENCE</p>
+            <h3>瑜伽室经营</h3>
+            <p>拥有经营瑜伽室的工作经历，重视健康、自律与身心平衡。</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <p class="timeline-label">CURRENT</p>
+            <h3>批发网店经营</h3>
+            <p>目前专注于批发网店的日常经营与业务发展。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div>
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>保持联系</h2>
+        <p>欢迎通过 WhatsApp 与我联系。</p>
+      </div>
+
+      <a
+        class="contact-card"
+        href="https://wa.me/6586010956?text=Hello%20Diana%2C%20I%20found%20your%20website."
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="通过 WhatsApp 联系 Diana"
+      >
+        <span>WHATSAPP</span>
+        <strong>8601 0956</strong>
+        <small>点击打开 WhatsApp →</small>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Diana92Teng. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
